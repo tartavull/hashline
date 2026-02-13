@@ -15,7 +15,9 @@ The goal is fail-fast edits: if the file changed since the agent last read it, a
 
 ## Build
 
-From the skill directory:
+If `hashline` is already on your `PATH` (for example installed via Nix/Home Manager), skip this section.
+
+Otherwise, from the skill directory:
 
 ```bash
 cd ~/.codex/skills/hashline
@@ -31,7 +33,7 @@ Binary path:
 ## Read
 
 ```bash
-~/.codex/skills/hashline/target/debug/hashline read path/to/file.txt
+hashline read path/to/file.txt
 ```
 
 Optional:
