@@ -14,3 +14,7 @@ npx skills add https://github.com/tartavull/hashline --skill hashline
 ```
 
 Or manually copy `hashline/` into `~/.codex/skills/`.
+
+## Credits
+
+This skill is based on the “hashline” edit format introduced by can1357 in “The Harness Problem” and implemented in `can1357/oh-my-pi`.
