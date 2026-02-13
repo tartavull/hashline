@@ -1,6 +1,6 @@
 ---
 name: hashline
-description: A safer, less error-prone alternative to patch/diff editing (e.g. apply_patch): reads files as LINE:HASH anchors and applies fail-fast, line-addressed edits.
+description: "A safer, less error-prone alternative to patch/diff editing (e.g. apply_patch): reads files as LINE:HASH anchors and applies fail-fast, line-addressed edits."
 allowed-tools: Bash(cargo rustc)
 ---
 
